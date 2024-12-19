@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                                  /* Définir la version JavaScript cible */
+    "module": "commonjs",                             /* Spécifier le système de modules utilisé */
+    "rootDir": "./src",                               /* Répertoire racine des fichiers source */
+    "outDir": "./dist",                               /* Répertoire de sortie pour les fichiers compilés */
+    "strict": true,                                   /* Activer toutes les vérifications strictes */
+    "esModuleInterop": true,                          /* Faciliter l'importation des modules CommonJS */
+    "forceConsistentCasingInFileNames": true,         /* Assurer une casse cohérente dans les noms de fichiers */
+    "skipLibCheck": true                              /* Ignorer la vérification des fichiers de déclaration (.d.ts) */
+  },
+  "include": ["src"],                                 /* Inclure tous les fichiers dans le répertoire src */
+  "exclude": ["node_modules"]                         /* Exclure le répertoire node_modules */
+}
